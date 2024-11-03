@@ -17,7 +17,7 @@ const TitleCards = ({ title, category }) => {
     return (
         <div className='title-cards'>
             <h2>{title ? title : "Popular on Netflix"}</h2>
-            <div className='card-list' ref={cardsRef}>
+            <div className='title-cards__card-list' ref={cardsRef}>
                 {cards_data.map((card, index) => {
                     return <div className='card' key={index}>
                         <img src={card.image} />

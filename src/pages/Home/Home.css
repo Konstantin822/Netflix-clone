@@ -1,43 +1,43 @@
-.hero {
+.home__hero {
     position: relative;
 }
 
-.banner-img {
+.home__hero-banner {
     width: 100%;
     mask-image: linear-gradient(to right, transparent, black 75%);
     -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
 }
 
-.hero-caption {
+.home__hero_caption {
     position: absolute;
     width: 100%;
     padding-left: 6%;
     bottom: 0;
 }
 
-.caption-img {
+.home__hero_caption-img {
     width: 90%;
     max-width: 420px;
     margin-bottom: 30px;
 }
 
-.hero-caption p {
+.home__hero_caption p {
     max-width: 700px;
     font-size: 17px;
     margin-bottom: 20px;
 }
 
-.hero-btns {
+.home__hero_caption_btns {
     display: flex;
     gap: 10px;
     margin-bottom: 50px;
 }
 
-.hero-btns .btn img {
+.home__hero_caption_btns .btn img {
     width: 25px;
 }
 
-.hero-btns .btn {
+.home__hero_caption_btns .btn {
     border: 0;
     outline: 0;
     padding: 8px 20px;
@@ -51,19 +51,19 @@
     cursor: pointer;
 }
 
-.hero-btns .btn.dark-btn {
+.home__hero_caption_btns .btn.dark-btn {
     color: #fff;
     background: #6d6d6eb3;
 }
 
-.hero-btns .btn:hover {
+.home__hero_caption_btns .btn:hover {
     background: #ffffffbf;
 }
 
-.hero-btns .btn.dark-btn:hover {
+.home__hero_caption_btns .btn.dark-btn:hover {
     background: #6d6d6e66;
 }
 
-.more-cards {
+.home__more-cards {
     padding-left: 6%;
 }

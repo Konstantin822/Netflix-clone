@@ -12,22 +12,22 @@ const Home = () => {
     return (
         <div className='home'>
             <Navbar />
-            <div className='hero'>
-                <img src={hero_banner} className='banner-img' />
-                <div className='hero-caption'>
-                    <img src={hero_title} className='caption-img' />
+            <div className='home__hero'>
+                <img src={hero_banner} className='home__hero-banner' />
+                <div className='home__hero_caption'>
+                    <img src={hero_title} className='home__hero_caption-img' />
                     <p>Discovering his ties to a secret ancient order, a young
                         man living in modern Istanbul embarks on a quest to save the
                         city from an immortal enemy.
                     </p>
-                    <div className='hero-btns'>
+                    <div className='home__hero_caption_btns'>
                         <button className='btn'><img src={play_icon} />Play</button>
                         <button className='btn dark-btn'><img src={info_icon} />More Info</button>
                     </div>
                     <TitleCards />
                 </div>
             </div>
-            <div className='more-cards'>
+            <div className='home__more-cards'>
                 <TitleCards title={"Blockbuster Movies"} />
                 <TitleCards title={"Only on Netflix"} />
                 <TitleCards title={"Upcoming"} />

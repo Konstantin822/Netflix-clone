@@ -9,7 +9,7 @@ import caret_icon from '../../assets/caret_icon.svg'
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <div className="navbar-left">
+            <div className="navbar__left">
                 <img src={logo} />
                 <ul>
                     <li>Home</li>
@@ -20,11 +20,11 @@ const Navbar = () => {
                     <li>Browse by Languages</li>
                 </ul>
             </div>
-            <div className="navbar-right">
+            <div className="navbar__right">
                 <img src={search_icon} className='icons' />
                 <p>Children</p>
                 <img src={bell_icon} className='icons' />
-                <div className="navbar-profile">
+                <div className="navbar__profile">
                     <img src={profile_img} className='profile' />
                     <img src={caret_icon} />
                     <div className="dropdown">

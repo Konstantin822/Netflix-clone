@@ -10,43 +10,43 @@
     z-index: 1;
 }
 
-.navbar-left {
+.navbar__left {
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-.navbar-left img {
+.navbar__left img {
     width: 90px;
 }
 
-.navbar-left ul {
+.navbar__left ul {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-.navbar-left ul li {
+.navbar__left ul li {
     cursor: pointer;
 }
 
-.navbar-right {
+.navbar__right {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.navbar-right .icons {
+.navbar__right .icons {
     width: 20px;
     cursor: pointer;
 }
 
-.navbar-right .profile {
+.navbar__right .profile {
     border-radius: 4px;
     width: 35px;
 }
 
-.navbar-profile {
+.navbar__profile {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -54,7 +54,7 @@
     position: relative;
 }
 
-.navbar .dropdown {
+.navbar__profile .dropdown {
     position: absolute;
     top: 100%;
     right: 0;
@@ -67,11 +67,11 @@
     display: none;
 }
 
-.navbar .dropdown p {
+.navbar__profile .dropdown p {
     font-size: 13px;
     cursor: pointer;
 }
 
-.navbar-profile:hover .dropdown {
+.navbar__profile:hover .dropdown {
     display: block;
 }
