@@ -67,3 +67,53 @@
 .home__more-cards {
     padding-left: 6%;
 }
+
+@media (max-width: 1024px) {
+    .home__hero_caption .title-cards {
+        display: none;
+    }
+
+    .home__hero_caption_btns {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .home__hero_caption {
+        padding-left: 4%;
+    }
+
+    .home__hero_caption-img {
+        margin-bottom: 10px;
+        width: 40%;
+    }
+
+    .home__hero_caption p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .home__hero_caption_btns .btn img {
+        width: 20px;
+    }
+
+    .home__more-cards {
+        padding-left: 4%;
+    }
+}
+
+@media (max-width: 500px) {
+    .home__hero_caption-img {
+        display: none;
+    }
+
+    .home__hero_caption_btns .btn img {
+        width: 15px;
+    }
+
+    .home__hero_caption_btns .btn {
+        padding: 4px 10px;
+        gap: 5px;
+        font-size: 10px;
+    }
+}
